@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 150vh;
+    height: 250vh;
     width: 200vh;
     background: rgb(174, 199, 195);
     display: flex;
@@ -10,11 +10,11 @@ body{
 }
 #total{
     display: flex;
-
+    margin-bottom: 650px;
 }
 #principal{
     background-color: white;
-    height: 120vh;
+    height: 107vh;
     width: 100vh;
     border-radius: 25px;
 }
@@ -60,4 +60,48 @@ header #botao4{
 header #imagemPrincipal{
     margin-left: 5px;
     margin-top: 9px;
+}
+#texto p{
+    color: black;
+    font-size: 30px;
+}
+main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+main #daImagemPrincipal{
+    width: 500px;
+    height: 500px;
+    
+}
+#texto #downloadNow{
+    background-color: rgb(16, 121, 241);
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 5px;
+}
+#texto #brainy{
+    margin-left: 5px;
+    color: rgb(85, 85, 240);
+    background-color: rgb(211, 130, 144);
+    border-radius: 10px;
+}
+#texto .text{
+    margin-left: 5px;
+}
+#texto #cinza{
+    color: rgb(136, 128, 128);
+    font-size: 20px;
+}
+#recado{
+    margin-top: 200px;
+    margin-left: 210px;
+}
+#Enviar{
+    background-color: rgb(41, 41, 160);
+    margin-left: 200px;
+}
+#nome{
+    margin-left: 33px;
 }

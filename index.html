@@ -11,21 +11,42 @@
         <div id="principal">
             <header>
                 <img   id="imagemPrincipal" src="/logo.jpg" alt="Logo do site" height="80px" width="150px">
-                <button id="botao1">Botão 1</button>
-                <button  id="botao2">Botão 2</button>
-                <button id="botao3">Botão 3</button>
+                <button id="botao1">Plans</button>
+                <button  id="botao2">Blog</button>
+                <button id="botao3">Job</button>
                 <button id="botao4">Sign in</button>
             </header>
             <main>
                 <div id="texto">
-                    button
+                    <button id="brainy">SO BRAINY</button>
+                    <p class="text">
+                        <strong>Hassle <br> free time <br> tracking. </strong> 
+                    </p>
+                    <p id="cinza" class="text">Export any report into any <br> format you need.</p>
+                    <button id="downloadNow">Download Now</button>
                 </div>
-                <div id="imagemPrincipal2">
-
+                <div id="daImagemPrincipal">
+                    <div id="imagemPrincipal2">
+                        <img src="/imagemPrincipal.png" alt="Imagem principal!" width="500px">
+                    </div>
                 </div>
+                
             </main>
-        </div>
+            <div id="recado">
+                <h1>Deixe seu recado!</h1>
+                <label for="nome"><strong>Nome:</strong> </label>
+                <input type="text" id="nome" name="nome"> <br>
+                <label for="mensagem"><strong>Mensagem:</strong> </label>
+                <input type="text" id="Mensagem" name="Mensagem"> <br> <br>
+                <button id="Enviar" onclick="enviar()">Enviar</button>
+            </div>
+            <p id="resultados">
 
+
+            </p>
+            
+        </div>
     </div>
+    <script src="/main.js"></script>
 </body>
 </html>
