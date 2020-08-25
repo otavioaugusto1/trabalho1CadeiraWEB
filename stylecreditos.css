@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(174, 199, 195);
+}
+#principal{
+    border-radius: 20px;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+font-size: 25px;
+}
+#apresentacao{
+    padding-top: 20px;
+    margin-left: 520px;
+}
+#botao{
+    background-color: rgb(16, 121, 241);
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    
+    margin-left: 755px;
+}
+#foto{
+    border-radius: 10px;
+}

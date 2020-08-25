@@ -20,10 +20,12 @@ function enviar(){
     span.className = "close";
     span.appendChild(btn);
     li.appendChild(span);
-
+    btn.onclick = function(){
+        li.style.display = 'none'
+    }
+    
      
 }
-
 
 function mudacor1(){
     var botao1 = document.getElementById('high1')

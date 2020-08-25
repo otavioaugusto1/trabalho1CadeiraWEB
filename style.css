@@ -1,6 +1,6 @@
 body{
     
-    height: 30px;
+    height: 100%;
     width: 200vh;
     background: rgb(174, 199, 195);
     
@@ -9,7 +9,7 @@ body{
     margin-top: 40px;
     margin-left: 370px;
     display: flex;
-    margin-bottom: 790px;
+    margin-bottom: 310px;
     
 }
 #principal{
@@ -100,8 +100,15 @@ main #daImagemPrincipal{
     font-size: 20px;
 }
 #recado{
+    background-color: white;
+    margin-right: 80px;
     margin-top: 100px;
-    margin-left: 210px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+#recado h1{
+    margin-left: 110px;
+    
 }
 #Enviar{
     background-color: rgb(41, 41, 160);
@@ -149,14 +156,31 @@ div #last{
     color: white;
 }
 #nome1, #mensagem1{
-    color: rgb(24, 175, 69);
+    color: rgb(175, 122, 24);
 }
-#box{
-    padding-right: 10px;
-    margin-top: 33px;
-    font-size: 30px;
-}
+
 div #resultados{
     height: 100px;
     width: 150px;
+}
+#footer{
+    border-radius: 20px;
+    height: 90px;
+    background-color: white;
+
+}
+#footer a{
+    margin-left: 500px;
+    border-radius: 20px;
+    color: black;
+    font-size: 30px;
+}
+#footer p{
+    margin-left: 300px;
+    border-radius: 20px;
+    color: black;
+    font-size: 30px;
+}
+#footer #a{
+    background-color: rgb(69, 69, 194);
 }
