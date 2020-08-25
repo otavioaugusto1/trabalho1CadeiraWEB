@@ -1,42 +1,42 @@
 body{
-    margin: 0;
-    padding: 0;
-    height: 250vh;
+    
+    height: 30px;
     width: 200vh;
     background: rgb(174, 199, 195);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 #total{
+    margin-top: 40px;
+    margin-left: 370px;
     display: flex;
-    margin-bottom: 650px;
+    margin-bottom: 790px;
+    
 }
 #principal{
     background-color: white;
-    height: 107vh;
+    height: 110vh;
     width: 100vh;
     border-radius: 25px;
 }
 header #botao1{
-    color: white;
-    background-color: purple;
+    color: black;
+    background-color: white;
     height: 20px;
     width: 70px;
     margin-top: 46px;
     border-radius: 8px;
 }
 header #botao2{
-    color: white;
-    background-color: blue;
+    color: grey;
+    background-color: white;
     height: 20px;
     width: 70px;
     margin-top: 46px;
     border-radius: 8px;
 }
 header #botao3{
-    color: white;
-    background-color: green;
+    color: grey;
+    background-color: white;
     height: 20px;
     width: 70px;
     margin-top: 46px;
@@ -56,10 +56,14 @@ header #botao4{
     padding: 0px;
     display: flex;
     justify-content: space-between;
+    
 }
 header #imagemPrincipal{
     margin-left: 5px;
     margin-top: 9px;
+}
+#texto{
+    margin-top: 35px;
 }
 #texto p{
     color: black;
@@ -86,6 +90,7 @@ main #daImagemPrincipal{
     color: rgb(85, 85, 240);
     background-color: rgb(211, 130, 144);
     border-radius: 10px;
+    font-size: 13px;
 }
 #texto .text{
     margin-left: 5px;
@@ -95,7 +100,7 @@ main #daImagemPrincipal{
     font-size: 20px;
 }
 #recado{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 210px;
 }
 #Enviar{
@@ -104,4 +109,54 @@ main #daImagemPrincipal{
 }
 #nome{
     margin-left: 33px;
+}
+div #last{
+    margin-top: 90px;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 1px;
+}
+#last1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#numero{
+    width: 24px;
+    color: rgb(79, 79, 223);
+}
+#ultimo{
+    width: 20px;
+    font-size: 15px;
+}
+.botoeshigh{
+    padding: 0;
+    margin: 0;
+    padding-left: 630px;
+}
+#high1{
+    margin-right: 5px;
+    background-color: black;
+    color: white;
+}
+#high2{
+    margin-right: 5px;
+    background-color: rgb(69, 69, 194);
+    color: white;
+}
+#high3{
+    background-color: purple;
+    color: white;
+}
+#nome1, #mensagem1{
+    color: rgb(24, 175, 69);
+}
+#box{
+    padding-right: 10px;
+    margin-top: 33px;
+    font-size: 30px;
+}
+div #resultados{
+    height: 100px;
+    width: 150px;
 }

@@ -7,10 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="botoeshigh">
+        <button id="high1" onclick="mudacor1()">Plans</button>
+        <button  id="high2" onclick="mudacor2()">Blog</button>
+        <button id="high3" onclick="mudacor3()">Job</button>
+    </div>
     <div id="total">
         <div id="principal">
+            
             <header>
-                <img   id="imagemPrincipal" src="/logo.jpg" alt="Logo do site" height="80px" width="150px">
+                <img   id="imagemPrincipal" src="/cubo.jpg" alt="Logo do site" height="80px" width="110px">
+                <span id="box"><strong>BOX</strong></span>
                 <button id="botao1">Plans</button>
                 <button  id="botao2">Blog</button>
                 <button id="botao3">Job</button>
@@ -24,6 +31,13 @@
                     </p>
                     <p id="cinza" class="text">Export any report into any <br> format you need.</p>
                     <button id="downloadNow">Download Now</button>
+                    <p id="last">
+                        <div id="last1">
+                            <h4 id="numero">02.</h4> 
+                            <h4 id="ultimo">Make Smarther Choices</h4>
+                        </div>
+                        
+                    </p>
                 </div>
                 <div id="daImagemPrincipal">
                     <div id="imagemPrincipal2">
@@ -34,16 +48,15 @@
             </main>
             <div id="recado">
                 <h1>Deixe seu recado!</h1>
-                <label for="nome"><strong>Nome:</strong> </label>
+                <label for="nome" id="nome1"><strong>Nome:</strong> </label>
                 <input type="text" id="nome" name="nome"> <br>
-                <label for="mensagem"><strong>Mensagem:</strong> </label>
+                <label for="mensagem" id="mensagem1"><strong>Mensagem:</strong> </label>
                 <input type="text" id="Mensagem" name="Mensagem"> <br> <br>
                 <button id="Enviar" onclick="enviar()">Enviar</button>
             </div>
-            <p id="resultados">
-
-
-            </p>
+            <ul id="myUL">
+                
+              </ul>
             
         </div>
     </div>
